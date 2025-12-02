@@ -1,5 +1,6 @@
 import { useCallback, useState, useEffect, useRef } from 'react'
 import './App.css'
+import ColorGenerator from './ColorGenerator';
 
 function App() {
   const [length, setLength] = useState(5)
@@ -87,6 +88,7 @@ function App() {
       </div>
     </div>
    </div>
+   <ColorGenerator/>
     </>
   )
 }
